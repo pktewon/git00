@@ -1,0 +1,45 @@
+body {
+  background: #222;
+  color: #fff;
+  font-family: 'Pretendard', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#game-container {
+  display: flex;
+  gap: 32px;
+}
+
+#board {
+  display: grid;
+  grid-template-rows: repeat(20, 24px);
+  grid-template-columns: repeat(10, 24px);
+  background: #111;
+  border: 2px solid #555;
+}
+
+.cell {
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+  border: 1px solid #333;
+}
+
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#next {
+  width: 96px;
+  height: 96px;
+  background: #222;
+  display: grid;
+  grid-template-rows: repeat(4, 24px);
+  grid-template-columns: repeat(4, 24px);
+  margin-bottom: 16px;
+} 
