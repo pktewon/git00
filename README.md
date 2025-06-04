@@ -1,5 +1,7 @@
 나의 첫 깃 프로젝트
 
-git init
-git status
-git add README.md
+1) git init
+2) git status
+3) git add README.md
+
+하핳
